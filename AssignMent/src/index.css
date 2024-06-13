@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+span {
+  position: relative;
+  cursor: pointer;
+}
+
+span:hover div {
+  display: block;
+}
